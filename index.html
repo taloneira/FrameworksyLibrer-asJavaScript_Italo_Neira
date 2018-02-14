@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego</title>
+        <link rel="stylesheet" href="css/jquery-ui.min.css">        
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <h1 class="main-titulo">Match Game</h1>
+
+            <div class="panel-tablero">
+                <div class="col-1">
+                    <div class="imagen" id="img_0_0"></div>
+                    <div class="imagen" id="img_1_0"></div>
+                    <div class="imagen" id="img_2_0"></div>
+                    <div class="imagen" id="img_3_0"></div>
+                    <div class="imagen" id="img_4_0"></div>
+                    <div class="imagen" id="img_5_0"></div>
+                    <div class="imagen" id="img_6_0"></div>
+                </div>
+                <div class="col-2">
+                    <div class="imagen" id="img_0_1"></div>
+                    <div class="imagen" id="img_1_1"></div>
+                    <div class="imagen" id="img_2_1"></div>
+                    <div class="imagen" id="img_3_1"></div>
+                    <div class="imagen" id="img_4_1"></div>
+                    <div class="imagen" id="img_5_1"></div>
+                    <div class="imagen" id="img_6_1"></div>                  
+                </div>
+                
+                <div class="col-3">
+                    <div class="imagen" id="img_0_2"></div>
+                    <div class="imagen" id="img_1_2"></div>
+                    <div class="imagen" id="img_2_2"></div>
+                    <div class="imagen" id="img_3_2"></div>
+                    <div class="imagen" id="img_4_2"></div>
+                    <div class="imagen" id="img_5_2"></div>
+                    <div class="imagen" id="img_6_2"></div>                                
+                </div>
+                <div class="col-4">
+                    <div class="imagen" id="img_0_3"></div>
+                    <div class="imagen" id="img_1_3"></div>
+                    <div class="imagen" id="img_2_3"></div>
+                    <div class="imagen" id="img_3_3"></div>
+                    <div class="imagen" id="img_4_3"></div>
+                    <div class="imagen" id="img_5_3"></div>
+                    <div class="imagen" id="img_6_3"></div>                
+                </div>
+                <div class="col-5">
+                    <div class="imagen" id="img_0_4"></div>
+                    <div class="imagen" id="img_1_4"></div>
+                    <div class="imagen" id="img_2_4"></div>
+                    <div class="imagen" id="img_3_4"></div>
+                    <div class="imagen" id="img_4_4"></div>
+                    <div class="imagen" id="img_5_4"></div>
+                    <div class="imagen" id="img_6_4"></div>
+                </div>
+                <div class="col-6">
+                    <div class="imagen" id="img_0_5"></div>
+                    <div class="imagen" id="img_1_5"></div>
+                    <div class="imagen" id="img_2_5"></div>
+                    <div class="imagen" id="img_3_5"></div>
+                    <div class="imagen" id="img_4_5"></div>
+                    <div class="imagen" id="img_5_5"></div>
+                    <div class="imagen" id="img_6_5"></div>
+                </div>
+                <div class="col-7">
+                    <div class="imagen" id="img_0_6"></div>
+                    <div class="imagen" id="img_1_6"></div>
+                    <div class="imagen" id="img_2_6"></div>
+                    <div class="imagen" id="img_3_6"></div>
+                    <div class="imagen" id="img_4_6"></div>
+                    <div class="imagen" id="img_5_6"></div>
+                    <div class="imagen" id="img_6_6"></div>
+                </div>
+            </div>
+
+            <div class="panel-score">
+                <div class="finalizacion">
+                    <h1 class="data-titulo">Juego Terminado</h1>                    
+                </div>
+                <div class="score">
+                    <h2 class="data-titulo">Puntuación</h2>
+                    <span class="data-info" id="score-text">0</span>
+                </div>
+                <div class="moves">
+                    <h2 class="data-titulo">Movimientos</h2>
+                    <span class="data-info" id="movimientos-text">0</span>
+                </div>
+                <div class="time">
+                    <h2 class="data-titulo">Tiempo</h2>
+                    <div class="data-info" id="timer">02:00</div>
+                </div>
+                <div class="buttons">
+                    <button class="btn-reinicio">Iniciar</button>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>       
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>
